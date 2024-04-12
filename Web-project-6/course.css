@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-1{
+    padding: 2% 6%;
+    min-height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('./Images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.header-1 h1{
+    margin-top: 50px;
+}
+.con-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image .img-1{
+    width: 85px;
+    height: 85px;
+}
+.menu-items{
+    flex: 1;
+    text-align: right;
+}
+.menu-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-items .menu-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-items .menu-list li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.menu-items .menu-list li:hover::after{
+    width: 100%;
+}
+.text-con{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-con h1{
+    font-size: 62px;
+}
+.text-con p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.text-con a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid ;
+    font-size: 13px;
+    background: transparent;
+    padding: 12px 34px;
+    position: relative;
+    cursor: pointer;
+}
+.btn-1:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.menu-items i{
+    display: none;
+}
+.con-1 i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+@media(max-width: 700px)  {
+    .text-con h1{
+        font-size: 30px;
+    }
+    .menu-list li{
+        display: block;
+    }
+    .menu-items{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .menu-items i{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .menu-items ul{
+        padding: 30px;
+    };
+}
+/* footer */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+.icons i{
+    color: rgb(23, 145, 194);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart{
+    color:rgb(243, 181, 191);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24/02/24-About</title>
+    <link rel="shortcut icon" href="./Images/PS logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+</head>
+
+<body>
+    <header class="header-1">
+        <section class="con-1">
+            <div class="image">
+                <a href="index.html"><img src="./Images/PS_logo.png" alt="background" class="img-1"></a>
+            </div>
+            <div class="menu-items" id="menuItems">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul class="menu-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="showmenu()"></i>
+        </section>
+        <h1>About Us</h1>
+    </header>
+<!-- about -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's Largest University</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque quasi quidem illo aspernatur cum rerum earum! Soluta sit obcaecati magnam consequatur delectus quos aspernatur commodi nesciunt odit excepturi, similique expedita!</p>
+                <a href="" class="btn-1">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="./Images/about.jpg" alt="about">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Veritatis voluptatum eos nulla voluptatem nisi minus numquam hic qui enim quas molestiae id omnis esse officia, autem ducimus tempore, ipsum totam!</p>
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Created by <i class="fa-sharp fa-solid fa-heart"></i> Pradeep Surya</p>
+    </section>
+
+
+
+
+
+
+
+<!-- Javascript -->
+  <script>
+    var menuItems = document.getElementById("menuItems");
+    function showmenu(){
+        menuItems.style.right ="0";
+    }
+    function hidemenu(){
+        menuItems.style.right ="-200px";
+    }
+  </script>  
+</body>
+
+</html>

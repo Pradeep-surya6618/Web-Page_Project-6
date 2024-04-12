@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24/02/24-Blog</title>
+    <link rel="shortcut icon" href="./Images/PS logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+</head>
+
+<body>
+    <header class="header-1">
+        <section class="con-1">
+            <div class="image">
+                <a href="index.html"><img src="./Images/PS_logo.png" alt="background" class="img-1"></a>
+            </div>
+            <div class="menu-items" id="menuItems">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul class="menu-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="showmenu()"></i>
+        </section>
+        <h1>Our Certificate & Online Programs For 2024</h1>
+    </header>
+<!-- Blog Page -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./Images/certificate.jpg" alt="certificate">
+                <h2>Our Certificate & Online Programs For 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo alias minima error aperiam natus, et quaerat. Hic quae libero cumque dolor eveniet impedit, aspernatur, fugiat error, tempore dicta at eligendi?</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis possimus soluta, quam culpa maxime reprehenderit sunt assumenda ut dolorum, commodi, vitae rerum facilis. Eum consequuntur cumque, culpa ullam hic facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ipsum, porro quaerat ea maxime suscipit eaque sit eveniet asperiores inventore, odio praesentium. Adipisci molestias iusto impedit ut, placeat quae deserunt!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore saepe et laborum neque molestiae molestias maxime, repellat fugit voluptatum, iure aliquid deserunt quas? Explicabo eaque ullam cumque nulla voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quidem saepe ea esse architecto aliquam quae commodi dolores. At impedit labore voluptatem porro dignissimos possimus ea, incidunt debitis totam ipsum?</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam in modi earum id voluptate nobis expedita, doloribus iure omnis natus magnam aut a consequatur optio velit error quos autem similique!</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Mail">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="btn-1">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>26</span>
+                </div>
+                <div>
+                    <span>Doctor</span>
+                    <span>28</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Veritatis voluptatum eos nulla voluptatem nisi minus numquam hic qui enim quas molestiae id omnis esse officia, autem ducimus tempore, ipsum totam!</p>
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Created by <i class="fa-sharp fa-solid fa-heart"></i> Pradeep Surya</p>
+    </section>
+
+
+
+
+
+
+
+<!-- Javascript -->
+  <script>
+    var menuItems = document.getElementById("menuItems");
+    function showmenu(){
+        menuItems.style.right ="0";
+    }
+    function hidemenu(){
+        menuItems.style.right ="-200px";
+    }
+  </script>  
+</body>
+
+</html>
